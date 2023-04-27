@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Raport 2023-01-27</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 120%;
+            font: inherit;
+            vertical-align: baseline;
+            font-family: Aharoni, Helvetica, sans-serif;
+            text-align: center
+        }
+        .board {
+            font-family: Calibri, Courier, monospace;
+            font-weight: bold;
+            padding: 20px;
+        }
+        table,
+        th,
+        td {
+            border: 3px solid;
+	    text-align: center
+            border-collapse: separate;
+            border-color: grey;
+	}
+        td {
+            padding: 40px;
+        }
+        th {
+            padding: 20px
+        }
+        #tbl {
+            margin: 0 auto
+        }
+        #top-bar {
+            background-color: #800080;
+        }
+        #title {
+            /* text-align: center; */
+            margin-top: 0;
+            margin-bottom: 50px;
+            padding: 40px;
+            font-size: 50px;
+        }
+        footer {
+            box-sizing: border-box;
+            background-color: #800080;
+            padding: 30px;
+            width: 100%;
+	    font-size: 120%;
+            bottom: 10;
+        }
+    </style>
+</head>
+<body>
+    <div id="top-bar">
+        <p id="title">Raport html - Algorytmion Szachownica (2023-01-27)</p>
+    </div>
+    <div id="tbl-wrapper">
+        <table id="tbl">
+            <tr>
+                <th>Nazwa pliku</th>
+                <th>Wejście pliku</th>
+                <th>Wynik programu</th>
+            </tr>
+            <tr><td>1.txt</td><td class="board">b 4 4 s<br></td><td class="false">[['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' 'x' '0' 'x' '0' '0']<br> ['0' '0' 'x' '0' '0' '0' 'x' '0']<br> ['0' '0' '0' '0' 'S' '0' '0' '0']<br> ['0' '0' 'x' '0' '0' '0' 'x' '0']<br> ['0' '0' '0' 'x' '0' 'x' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' '0']]<br></td></tr><tr><td>10.txt</td><td class="board">b 0 0 w</td><td class="false">[['W' 'x' 'x' 'x' 'x' 'x' 'x' 'x']<br> ['x' '0' '0' '0' '0' '0' '0' '0']<br> ['x' '0' '0' '0' '0' '0' '0' '0']<br> ['x' '0' '0' '0' '0' '0' '0' '0']<br> ['x' '0' '0' '0' '0' '0' '0' '0']<br> ['x' '0' '0' '0' '0' '0' '0' '0']<br> ['x' '0' '0' '0' '0' '0' '0' '0']<br> ['x' '0' '0' '0' '0' '0' '0' '0']]<br></td></tr><tr><td>11.txt</td><td class="board">b 4 3 a</td><td class="false">Blednie podana bierka!<br></td></tr><tr><td>12.txt</td><td class="board">c 4 5 w</td><td class="false">[['0' '0' '0' '0' '0' 'x' '0' '0']<br> ['0' '0' '0' '0' '0' 'x' '0' '0']<br> ['0' '0' '0' '0' '0' 'x' '0' '0']<br> ['0' '0' '0' '0' '0' 'x' '0' '0']<br> ['x' 'x' 'x' 'x' 'x' 'w' 'x' 'x']<br> ['0' '0' '0' '0' '0' 'x' '0' '0']<br> ['0' '0' '0' '0' '0' 'x' '0' '0']<br> ['0' '0' '0' '0' '0' 'x' '0' '0']]<br></td></tr><tr><td>13.txt</td><td class="board">b 2 3 </td><td class="false">Bledna ilosc danych!<br></td></tr><tr><td>14.txt</td><td class="board"></td><td class="false">Bledna ilosc danych!<br></td></tr><tr><td>15.txt</td><td class="board">b 4 4 s x</td><td class="false">Bledna ilosc danych!<br></td></tr><tr><td>2.txt</td><td class="board">c 5 0 s<br></td><td class="false">[['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' 'x' '0' '0' '0' '0' '0' '0']<br> ['0' '0' 'x' '0' '0' '0' '0' '0']<br> ['s' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' 'x' '0' '0' '0' '0' '0']<br> ['0' 'x' '0' '0' '0' '0' '0' '0']]<br></td></tr><tr><td>3.txt</td><td class="board">c 8 0 s</td><td class="false">Blednie podany rzad!<br></td></tr><tr><td>4.txt</td><td class="board">b 0 0 k</td><td class="false">[['K' 'x' '0' '0' '0' '0' '0' '0']<br> ['x' 'x' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' '0']]<br></td></tr><tr><td>5.txt</td><td class="board">b 5 5 g</td><td class="false">[['x' '0' '0' '0' '0' '0' '0' '0']<br> ['0' 'x' '0' '0' '0' '0' '0' '0']<br> ['0' '0' 'x' '0' '0' '0' '0' '0']<br> ['0' '0' '0' 'x' '0' '0' '0' 'x']<br> ['0' '0' '0' '0' 'x' '0' 'x' '0']<br> ['0' '0' '0' '0' '0' 'G' '0' '0']<br> ['0' '0' '0' '0' 'x' '0' 'x' '0']<br> ['0' '0' '0' 'x' '0' '0' '0' 'x']]<br></td></tr><tr><td>6.txt</td><td class="board">b 3 6 q<br></td><td class="false">[['0' '0' '0' 'x' '0' '0' 'x' '0']<br> ['0' '0' '0' '0' 'x' '0' 'x' '0']<br> ['0' '0' '0' '0' '0' 'x' 'x' 'x']<br> ['x' 'x' 'x' 'x' 'x' 'x' 'Q' 'x']<br> ['0' '0' '0' '0' '0' 'x' 'x' 'x']<br> ['0' '0' '0' '0' 'x' '0' 'x' '0']<br> ['0' '0' '0' 'x' '0' '0' 'x' '0']<br> ['0' '0' 'x' '0' '0' '0' 'x' '0']]<br></td></tr><tr><td>7.txt</td><td class="board">c 4 7 p</td><td class="false">[['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' 'x']<br> ['0' '0' '0' '0' '0' '0' '0' 'p']<br> ['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' '0']<br> ['0' '0' '0' '0' '0' '0' '0' '0']]<br></td></tr><tr><td>8.txt</td><td class="board">d 2 3 p</td><td class="false">Blednie podany kolor!<br></td></tr><tr><td>9.txt</td><td class="board">c 2 5 q</td><td class="false">[['0' '0' '0' 'x' '0' 'x' '0' 'x']<br> ['0' '0' '0' '0' 'x' 'x' 'x' '0']<br> ['x' 'x' 'x' 'x' 'x' 'q' 'x' 'x']<br> ['0' '0' '0' '0' 'x' 'x' 'x' '0']<br> ['0' '0' '0' 'x' '0' 'x' '0' 'x']<br> ['0' '0' 'x' '0' '0' 'x' '0' '0']<br> ['0' 'x' '0' '0' '0' 'x' '0' '0']<br> ['x' '0' '0' '0' '0' 'x' '0' '0']]<br></td></tr>
+        </table>
+    </div>
+    <p id="summary">Znaleziono 15 plików w folderze "in".</p>
+
+    <footer>
+        Marek Grys </p>
+	Informatyka Sem III </p>
+	Wydział Matematyki Stosowanej, 2023
+    </footer>
+</body>
+</html>

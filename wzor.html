@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Raport $date</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 120%;
+            font: inherit;
+            vertical-align: baseline;
+            font-family: Aharoni, Helvetica, sans-serif;
+            text-align: center
+        }
+        .board {
+            font-family: Calibri, Courier, monospace;
+            font-weight: bold;
+            padding: 20px;
+        }
+        table,
+        th,
+        td {
+            border: 3px solid;
+	    text-align: center
+            border-collapse: separate;
+            border-color: grey;
+	}
+        td {
+            padding: 40px;
+        }
+        th {
+            padding: 20px
+        }
+        #tbl {
+            margin: 0 auto
+        }
+        #top-bar {
+            background-color: #800080;
+        }
+        #title {
+            /* text-align: center; */
+            margin-top: 0;
+            margin-bottom: 50px;
+            padding: 40px;
+            font-size: 50px;
+        }
+        footer {
+            box-sizing: border-box;
+            background-color: #800080;
+            padding: 30px;
+            width: 100%;
+	    font-size: 120%;
+            bottom: 10;
+        }
+    </style>
+</head>
+<body>
+    <div id="top-bar">
+        <p id="title">Raport html - Algorytmion Szachownica ($date)</p>
+    </div>
+    <div id="tbl-wrapper">
+        <table id="tbl">
+            <tr>
+                <th>Nazwa pliku</th>
+                <th>Wejście pliku</th>
+                <th>Wynik programu</th>
+            </tr>
+            $output
+        </table>
+    </div>
+    <p id="summary">Znaleziono $no_files plików w folderze "in".</p>
+
+    <footer>
+        Marek Grys </p>
+	Informatyka Sem III </p>
+	Wydział Matematyki Stosowanej, 2023
+    </footer>
+</body>
+</html>
